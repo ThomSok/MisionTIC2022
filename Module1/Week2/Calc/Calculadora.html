@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Código Fuente Interactivo</title>
+        <link rel="stylesheet" type="text/css" href="Calculadora.css">
+        <script defer type="text/javascript" src="Calculadora.js"></script>
+    </head>
+    <body>
+        <div class="BasicCalc">
+            <h1>Calculadora Básica</h1>
+            <div class="entradas">
+                <input type="number" id="Entrada1" placeholder="Primer Número" autofocus>
+                <br>
+                <input type="number" id="Entrada2" placeholder="Segundo Número">
+                <br>
+            </div>
+            <div class="Operaciones">
+                <button id="suma" onclick="sumar();">Sumar</button>
+                <button id="resta" onclick="restar();">Restar</button>
+                <button id="multiplicacion" onclick="multiplicar();">Multiplicar</button>
+                <button id="division" onclick="dividir();">Dividir</button>
+                <button id="potencia" onclick="elevar();">Hallar potencia</button>
+            </div>
+            <div class="Resultados">El resultado es : <p id="Resultado"></p></div>
+        </div>
+        <div class="AreaCirc">
+            <h1>Área de un Círculo</h1>
+            <div class="entradas">
+                <input type="number" id="EntradArea" placeholder="Ingresa el radio del círculo">
+                <br>
+            </div>
+            <div class="Operaciones">
+                <button id="area" onclick="areaCirculo();">Hallar área</button>
+            </div>
+            <div class="Resultados">El resultado es : <p id="AreaTotal"></p></div>
+        </div>
+        <div class="FtoC">
+            <h1>Grados Fahrenheit a Celsius</h1>
+            <div class="entradas">
+                <input type="number" id="EntradaTemperatura" placeholder="Ingresa la temperatura en grados Fahrenheit">
+                <br>
+            </div>
+            <div class="Operaciones">
+                <button id="ConversionTemperatura" onclick="fahrenheitToCelsius();">Convertir Temperatura</button>
+            </div>
+            <div class="Resultados">El resultado es : <p id="TemperaturaConvertida"></p></div>
+        </div>
+        <div class="AlgebraEsencial">
+            <h1>Álgebra Básica</h1>
+            <div class="entradas">
+                <input type="number" id="ValorA" placeholder="Ingresa el valor a">
+                <br>
+                <input type="number" id="ValorB" placeholder="Ingresa el valor b">
+                <br>
+                <input type="number" id="ValorC" placeholder="Ingresa el valor c">
+                <br>
+            </div>
+            <div class="Operaciones">
+                <button id="CuadradoSuma" onclick="sumaCuadrados();">Cuadrado de la Suma (a+b+c)²</button>
+                <button id="Producto" onclick="productoTerminos();">Producto de los Términos (a*b*c)</button>
+                <button id="CuboProducto" onclick="productoCubo();">Cubo del Producto (a*b*c)³</button>
+                <button id="RestaTerminos" onclick="diferenciaTerminos();">Diferencia Cuadrado y Cubo ((a+b+c)²-(a*b*c)³)</button>
+            </div>
+            <div class="Resultados">El resultado es: <p id="AlgebraResuelta"></p></div>
+        </div>
+        <div class="NotasEstudiante">
+            <h1>Promedio Notas Estudiante</h1>
+            <div class="entradas">
+                <input type="text" id="Nombre" placeholder="Ingresa tu nombre">
+                <br>
+                <input type="text" id="Codigo" placeholder="Ingresa tu código">
+                <br>
+                <input type="number" id="Nota1" placeholder="Ingresa la Nota 1">
+                <br>
+                <input type="number" id="Nota2" placeholder="Ingresa la Nota 2">
+                <br>
+                <input type="number" id="Nota3" placeholder="Ingresa la Nota 3">
+                <br>
+            </div>
+            <div class="Operaciones">
+                <button id="HallarNota" onclick="promedioNotas();">Calcular Promedio de Notas</button>
+            </div>
+            <div class="Resultados">
+                <p>Nombre del Estudiante: <p id="NombreForm"></p></p>
+                <p>Código: <p id="CodigoForm"></p></p>
+                <p>El promedio global es: <p id="PromedioNotas"></p></p>
+            </div>
+        </div>
+    </body>
+</html>

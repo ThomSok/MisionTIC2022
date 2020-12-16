@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.entradas {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.Operaciones {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 20px;
+    margin: 6px;
+    padding: 12px;
+    border: #ffffff;
+    background-color: rgb(43, 184, 184);
+}
+
+.Resultados {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+    font-size: medium;
+}
+
+#suma {
+    background-color: #f7c838;
+}
+
+#resta {
+    background-color: #3758ee;
+}
+
+#multiplicacion {
+    background-color: #dd3266;
+}
+
+#division {
+    background-color: #7fdc32;
+}
+
+#potencia {
+    background-color: #763dc0;
+}
+
+#CuadradoSuma {
+    background-color: #ff892c;
+}
+
+#Producto {
+    background-color: #21c3bd;
+}
+
+#CuboProducto {
+    background-color: #912ccc;
+}
+
+#RestaTerminos {
+    background-color: #fffe2c;
+}
