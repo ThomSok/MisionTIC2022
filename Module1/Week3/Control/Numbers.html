@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Manejo Estructuras de Decisión</title>
+        <link rel="stylesheet" type="text/css" href="Numbers.css">
+        <script defer type="text/javascript" src="Numbers.js"></script>
+    </head>
+    <body>
+        <div id="Cantidad">
+            <h1>Cantidad de cifras de un Número entero positivo</h1>
+            <div class="Inputs">
+                <input type="number" id="Read" placeholder="Ingresa el número">
+                <br>
+            </div>
+            <div class="Operators">
+                <button id="" onclick="numberAmount()">Determinar número de Digitos</button>
+            </div>
+            <div class="Results">
+                <p>El número es de <p id="Amount"></p> dígitos</p>
+            </div>
+        </div>
+        <div id="MenorNumero">
+            <h1>Comparación de 3 números y determinar el de menor valor</h1>
+            <div class="Inputs">
+                <input type="number" id="NumComp1" placeholder="Ingresa el número 1">
+                <br>
+                <input type="number" id="NumComp2" placeholder="Ingresa el número 2">
+                <br>
+                <input type="number" id="NumComp3" placeholder="Ingresa el número 3">
+                <br>
+            </div>
+            <div class="Operators">
+                <button id="" onclick="minorNumber()">Determinar número menor</button>
+            </div>
+            <div class="Results">
+                El número menor es <p id="MinorAns"></p>
+            </div>
+        </div>
+        <div id="UpDownNum">
+            <h1>Orden y posición de 3 números</h1>
+            <div class="Inputs">
+                <input type="number" id="NumUpDown1" placeholder="Ingresa el número 1">
+                <br>
+                <input type="number" id="NumUpDown2" placeholder="Ingresa el número 2">
+                <br>
+                <input type="number" id="NumUpDown3" placeholder="Ingresa el número 3">
+                <br>
+            </div>
+            <div class="Operators">
+                <button id="" onclick="upDown()">Determinar número menor</button>
+            </div>
+            <div class="Results">
+                Los números están de forma <p id="UpDownAns"></p>
+        </div>
+        <div id="Athletes">
+            <h1>Preselección Atletas Maratón Olímpico 2021</h1>
+            <div class="Inputs">
+                <form name="FormGender">
+                <select name="SelectGender" id="SelectGender">
+                    <option value="default" selected>Selecciona el género</option>
+                    <option value="male">Masculino</option>
+                    <option value="female">Femenino</option>
+                </select>
+                </form>
+                <br>
+                <input type="number" id="Age" placeholder="Ingresa tu edad">
+                <br>
+                <input type="number" id="Minutes" placeholder="Ingresa el tiempo en tu anterior maratón">
+                <br>
+            </div>
+            <div class="Operators">
+                <button id="" onclick="athletesInfo()">Determinar número menor</button>
+            </div>
+            <div class="Results">
+                <p id="AthletesAns"></p> estas preseleccionado
+            </div>
+        </div>
+    </body>
+</html>

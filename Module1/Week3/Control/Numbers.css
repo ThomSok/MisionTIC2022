@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+.Inputs {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 50%;
+    border-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 8px;
+}
+
+.Operators {
+    width: 100%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 20px;
+    margin: 6px;
+    padding: 12px;
+    border: #ffffff;
+    background-color: rgb(43, 184, 184);
+}
+
+.Results {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    font-size: medium;
+}
